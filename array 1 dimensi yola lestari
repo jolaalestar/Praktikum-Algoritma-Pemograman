@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main(){
+	int nilai[5] ={70,73,69,90,94};
+	int i;
+	for (i=0;i<5;i++)
+	{
+		cout <<"NAMA : YOLA LESTARI"<<endl;
+		cout <<"NIM  : 22343080"<<endl;
+		cout <<"cetak nilai le-"<<i+1<<" = "<<nilai[i]<<endl;
+	}
+	return 0;
+}
